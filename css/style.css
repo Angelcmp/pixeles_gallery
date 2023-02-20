@@ -14,7 +14,7 @@
 
 .header-section{
     width: 100%;
-    height: 90vh;
+    height: 80vh;
     position: relative;
     background-image: url(../img/background3.jpg);
     background-size: cover;
@@ -25,7 +25,7 @@
 }
 
 .logo{
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 700;
     color: #fff;
     text-decoration: none;
@@ -179,4 +179,77 @@ img{
 
 .nxt-btn{
     right: 20px;
+}
+
+/* header search navbar */
+
+.search-container{
+    width: 100%;
+    height: 60px;
+    background: #f0f0f0;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-input{
+    width: 83%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.search{
+    background: none;
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.logo-img{
+    width: 100px;
+    height: auto;
+    
+}
+
+.navbar{
+    text-align: center;
+    display: flex;
+    outline: none;
+    column-gap: 24px;
+    padding: 20px;
+    background: #f0efef;
+}
+
+.navbar li{
+    color: #767676;
+    cursor: pointer;
+    list-style: none;
+    margin-left: 20px;
+    padding-left: 0;
+    font-size: 14px;
+    height: 20px;
+    text-decoration: none;
+    justify-content: space-around;
+    transition: 0.5s ease;
+}
+
+.navbar li:hover{
+    color: #424242;
+    transition: 0.5s ease;
+}
+
+.home-nav{
+    color: #424242;
+    transition: 0.5s ease;
+    outline: none;
+    text-decoration: none;
+}
+
+.navbar a{
+    text-decoration: none;
 }
