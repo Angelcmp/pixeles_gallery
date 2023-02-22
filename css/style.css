@@ -261,3 +261,44 @@ img{
 .navbar a{
     text-decoration: none;
 }
+
+@media (max-width:1650px){
+    .navbar{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+}
+
+
+@media (max-width:1370px){
+    .navbar{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width:960px){
+    .navbar{
+        display: none;
+    }
+    .header-content{
+        width: 100%;
+    }
+    .search-box{
+        width: 60%;
+    }
+
+}
+
+@media (max-width:760px){
+        .navbar{
+            display: none;
+        }
+        .header-content{
+            width: 100%;
+            height: 40vh;
+        }
+
+}
